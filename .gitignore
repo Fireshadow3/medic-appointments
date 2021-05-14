@@ -49,3 +49,8 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
+# Database file for django
+medicappointments/db.sqlite3
+
+# Local venv
+venv/
