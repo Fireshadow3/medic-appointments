@@ -30,3 +30,9 @@ Pannelli su django-admin:
     * many to many tipologie medici, che fa vedere quali tipologie può avere un medico
 * [ ] Gestione pazienti (con una inline degli appuntamenti presi e delle visite ricevute)
 
+Admin user:
+python manage.py createsuperuser
+User:
+admin
+Password:
+testtest

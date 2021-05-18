@@ -1,0 +1,33 @@
+Documentation/articles used:
+
+Overview https://docs.djangoproject.com/en/3.2/intro/overview/
+
+Design philosophies https://docs.djangoproject.com/en/3.2/misc/design-philosophies/#dry
+
+Modern Applications with Django and vue.js https://auth0.com/blog/building-modern-applications-with-django-and-vuejs/
+A Vue.js workflow with django https://www.valentinog.com/blog/vue-django/
+Modern multi-page website with Vue.js and Django https://shumingxu.com/posts/vue-django-multi-page/
+Lazy loading Django+vuejs https://medium.com/js-dojo/django-vue-blazing-content-rich-interactivity-b34e45d8c602
+Test driven development with Django https://medium.com/the-andela-way/test-driven-development-with-django-ccb179171dcd
+Django REST API in 15 minutes https://blog.logrocket.com/django-rest-framework-build-an-api-in-15-minutes/
+Django REST API in 30 minutes https://medium.com/swlh/build-your-first-rest-api-with-django-rest-framework-e394e39a482c
+Why you shouldn't use admin for everything https://www.reddit.com/r/django/comments/2mqaro/why_not_use_admin_for_everything/
+
+Polls example project chapters (ofc!) https://docs.djangoproject.com/en/3.2/intro/tutorial0*/
+Naming convention for django apps (only lowercase letters, underscores allowed but not recommended) https://stackoverflow.com/questions/3098681/is-there-a-naming-convention-for-django-apps
+
+Difference null/blank for TextField https://stackoverflow.com/questions/8609192/what-is-the-difference-between-null-true-and-blank-true-in-django
+
+Documenting models https://docs.djangoproject.com/en/3.1/ref/contrib/admin/admindocs/
+admin docs/django documentation https://docs.djangoproject.com/en/3.2/ref/contrib/admin/admindocs/
+
+App named the same as django module/conflicting app names https://stackoverflow.com/questions/13257818/django-import-error-no-module-named-models
+
+Model field OneToOne reference https://docs.djangoproject.com/en/3.2/ref/models/fields/#django.db.models.OneToOneField and this too https://docs.djangoproject.com/en/3.2/topics/db/examples/one_to_one/ and https://docs.djangoproject.com/en/3.2/topics/db/models/#many-to-one-relationships
+
+on_delete reference https://stackoverflow.com/questions/38388423/what-does-on-delete-do-on-django-models
+
+javascript customization in the admin https://docs.djangoproject.com/en/3.2/ref/contrib/admin/javascript/
+
+
+
