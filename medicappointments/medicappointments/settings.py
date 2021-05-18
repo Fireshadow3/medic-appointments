@@ -30,7 +30,9 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+# 'medicappointments.apps.medicmodels'
 INSTALLED_APPS = [
+    'medicmodels',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
