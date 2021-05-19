@@ -29,5 +29,7 @@ on_delete reference https://stackoverflow.com/questions/38388423/what-does-on-de
 
 javascript customization in the admin https://docs.djangoproject.com/en/3.2/ref/contrib/admin/javascript/
 
+https://stackoverflow.com/questions/30274591/how-to-display-all-model-fields-with-modelserializer
+
 
 
