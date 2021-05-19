@@ -12,8 +12,8 @@ La visita è cosa viene fatto durante un appuntamento.
 L'appuntamento può avere una sola visita.
 
 * API REST da esporre:
-    * [ ] Lista medici
-    * [ ] Dettaglio medico
+    * [X] Lista medici
+    * [X] Dettaglio medico
     * [ ] Lista pazienti
     * [ ] Dettaglio pazienti
     * [ ] Creazione appuntamento (paziente,medico,tipologia visita, giorno)
