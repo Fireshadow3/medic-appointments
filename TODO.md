@@ -26,7 +26,7 @@ L'appuntamento può avere una sola visita.
 
 Pannelli su django-admin:
 * [ ] Gestione tipologie visite
-* [ ] gestione medici (con una inline delle tipologie di visite erogabili dal medico)
+* [X] gestione medici (con una inline delle tipologie di visite erogabili dal medico)
     * many to many tipologie medici, che fa vedere quali tipologie può avere un medico
 * [ ] Gestione pazienti (con una inline degli appuntamenti presi e delle visite ricevute)
 

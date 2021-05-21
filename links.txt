@@ -31,5 +31,9 @@ javascript customization in the admin https://docs.djangoproject.com/en/3.2/ref/
 
 https://stackoverflow.com/questions/30274591/how-to-display-all-model-fields-with-modelserializer
 
+https://www.django-rest-framework.org/tutorial/quickstart/
+https://www.django-rest-framework.org/tutorial/1-serialization/
+https://www.django-rest-framework.org/tutorial/*/
+https://www.django-rest-framework.org/api-guide/viewsets/
 
-
+https://docs.djangoproject.com/en/dev/ref/contrib/admin/#inlinemodeladmin-objects
