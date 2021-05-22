@@ -9,6 +9,9 @@ class TypeOfVisit(models.Model):
     """
     name = models.CharField(max_length=100)
 
+    def __str__(self):
+        return self.name
+
 
 class Medic(models.Model):
     """
@@ -19,20 +22,35 @@ class Medic(models.Model):
     surname = models.CharField(max_length=400)
     medic_specializations = models.ManyToManyField(TypeOfVisit)
 
+    def __str__(self):
+        return self.name+self.surname
+
 
 class Patient(models.Model):
     name = models.CharField(max_length=400)
     surname = models.CharField(max_length=400)
+
+    def __str__(self):
+        return self.name+self.surname
 
 
 class Visit(models.Model):
     result = models.TextField(blank=True)
     notes = models.TextField(blank=True)
 
+    def __str__(self):
+        return self.result
+
+
 class Appointment(models.Model):
     visit = models.OneToOneField(
         Visit,
         on_delete=models.CASCADE,
+        null=True,
+        blank=True,
     )
     type = models.ForeignKey(TypeOfVisit, on_delete=models.DO_NOTHING)
     date = models.DateTimeField()
+
+    def __str__(self):
+        return self.type+self.date
