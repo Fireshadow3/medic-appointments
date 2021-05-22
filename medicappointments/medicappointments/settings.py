@@ -35,7 +35,7 @@ INSTALLED_APPS = [
     'medicmodels',
     'medicapis',
     'medicadmin',
-    'django.contrib.admin',
+    'django.contrib.admin.apps.SimpleAdminConfig',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
