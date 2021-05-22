@@ -51,6 +51,8 @@ class Appointment(models.Model):
     )
     type = models.ForeignKey(TypeOfVisit, on_delete=models.DO_NOTHING)
     date = models.DateTimeField()
+    medic = models.ForeignKey(Medic, on_delete=models.DO_NOTHING)
+    patient = models.ForeignKey(Patient, on_delete=models.DO_NOTHING)
 
     def __str__(self):
         return str(self.type)+","+str(self.date)
