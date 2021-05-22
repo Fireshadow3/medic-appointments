@@ -23,7 +23,7 @@ class Medic(models.Model):
     medic_specializations = models.ManyToManyField(TypeOfVisit)
 
     def __str__(self):
-        return self.name+","+self.surname
+        return self.name+" "+self.surname
 
 
 class Patient(models.Model):
@@ -31,7 +31,7 @@ class Patient(models.Model):
     surname = models.CharField(max_length=400)
 
     def __str__(self):
-        return self.name+""+self.surname
+        return self.name+" "+self.surname
 
 
 class Visit(models.Model):
