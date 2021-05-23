@@ -21,5 +21,5 @@ Structure of the project:
     
 The rest of the project follows the standard layout structure.
 
-A test sqlite database can be found in the root of the project, "db.sqlite3".
+A test sqlite database can be found in the root of the project, "db.sqlite3". It can be used to load test data if moved to medicappointments/ (same directory holding manage.py)
 The default superuser to login into admin is "admin", with password "testtest"
