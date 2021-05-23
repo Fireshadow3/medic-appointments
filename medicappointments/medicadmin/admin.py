@@ -17,7 +17,11 @@ class MedicAdminSite(AdminSite):
 
 class PossibleVisitsByMedicInline(admin.TabularInline):
     model = Medic.medic_specializations.through
-    extra = 1
+    extra = 0
+    can_delete = False
+
+    def has_add_permission(self, request, obj=None):
+        return False
 
 
 class MedicAdmin(admin.ModelAdmin):
@@ -48,6 +52,8 @@ class PatientVisitsInline(admin.TabularInline):
     readonly_fields = ('type', 'medic', 'visit', 'date',)
     fields = ('date', 'visit', 'type', 'medic')
     can_delete = False
+    verbose_name = "Visit"
+    verbose_name_plural = "Visits"
 
     def has_add_permission(self, request, obj=None):
         return False

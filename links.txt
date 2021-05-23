@@ -89,3 +89,4 @@ select all appointments in day https://stackoverflow.com/questions/47979647/pass
 
 https://stackoverflow.com/questions/34438290/assertionerror-hyperlinkedidentityfield-requires-the-request-in-the-serialize
 
+change inline label https://stackoverflow.com/questions/4807479/how-to-set-another-inline-title-in-django-admin
