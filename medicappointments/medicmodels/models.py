@@ -34,21 +34,7 @@ class Patient(models.Model):
         return self.name+" "+self.surname
 
 
-class Visit(models.Model):
-    result = models.TextField(blank=True)
-    notes = models.TextField(blank=True)
-
-    def __str__(self):
-        return self.result
-
-
 class Appointment(models.Model):
-    visit = models.OneToOneField(
-        Visit,
-        on_delete=models.CASCADE,
-        null=True,
-        blank=True,
-    )
     type = models.ForeignKey(TypeOfVisit, on_delete=models.DO_NOTHING)
     date = models.DateTimeField()
     medic = models.ForeignKey(Medic, on_delete=models.DO_NOTHING)
@@ -56,3 +42,17 @@ class Appointment(models.Model):
 
     def __str__(self):
         return str(self.type)+","+str(self.date)
+
+
+class Visit(models.Model):
+    result = models.TextField(blank=True)
+    notes = models.TextField(blank=True)
+    appointment = models.OneToOneField(
+        Appointment,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+    )
+
+    def __str__(self):
+        return self.result
