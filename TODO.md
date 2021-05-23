@@ -20,9 +20,9 @@ L'appuntamento può avere una sola visita.
     * [X] Ricerca appuntamenti per medico (da data - a data e per tipologia)
     * [X] Ricerca appuntamenti per paziente (da data - a data e per tipologia)
     * [X] Dettaglio appuntamento
-    * [ ] Creazione visita da appuntamento
-    * [ ] Lista visite per paziente (da data)
-    * [ ] Dettaglio visita
+    * [X] Creazione visita da appuntamento
+    * [X] Lista visite per paziente (da data)
+    * [X] Dettaglio visita
 
 Pannelli su django-admin:
 * [X] Gestione tipologie visite

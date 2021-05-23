@@ -15,4 +15,5 @@ urlpatterns = [
     path('', include(router.urls)),
     path('appointmentsbymedic/', views.AppointmentsFilteredListByMedic.as_view()),
     path('appointmentsbypatient/', views.AppointmentsFilteredListByPatient.as_view()),
+    path('visitsperpatientbyday/', views.listVisitsByUserByDay),
 ]

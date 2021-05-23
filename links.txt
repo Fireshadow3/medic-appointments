@@ -76,4 +76,16 @@ https://github.com/encode/django-rest-framework/issues/3633
 https://medium.com/swlh/searching-in-django-rest-framework-45aad62e7782
 
 https://django-filter.readthedocs.io/en/latest/guide/rest_framework.html
+https://www.django-rest-framework.org/api-guide/filtering/
+
+https://stackoverflow.com/questions/47220070/django-rest-framework-filtering-by-datetime/47221049
+https://django-filter.readthedocs.io/en/stable/ref/filters.html
+
+
+https://www.django-rest-framework.org/api-guide/views/
+https://www.cdrf.co/3.12/rest_framework.views/APIView.html
+
+select all appointments in day https://stackoverflow.com/questions/47979647/pass-date-range-in-url-in-django-rest
+
+https://stackoverflow.com/questions/34438290/assertionerror-hyperlinkedidentityfield-requires-the-request-in-the-serialize
 
