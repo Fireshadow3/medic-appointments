@@ -40,3 +40,34 @@ https://docs.djangoproject.com/en/dev/ref/contrib/admin/#inlinemodeladmin-object
 
 https://docs.djangoproject.com/en/3.2/ref/contrib/admin/#customizing-adminsite
 
+
+Remove add button from inline/readonly fields:
+https://stackoverflow.com/questions/26425818/django-1-7-removing-add-button-from-inline-form
+https://stackoverflow.com/questions/17118320/how-to-add-readonly-inline-on-django-admin
+def has_add_permission(self, request, obj=None):
+    return False
+
+Exclude fields on inline https://stackoverflow.com/questions/4187291/django-excluding-some-fields-in-inline-admin-interface
+
+Change order of columns https://docs.djangoproject.com/en/3.2/ref/contrib/admin/#django.contrib.admin.ModelAdmin.fields
+
+Get value from an indirect relationship in Inline/define indirect relationships with model/django inline no foreign key
+https://docs.djangoproject.com/en/3.2/ref/models/relations/
+https://stackoverflow.com/questions/42772102/django-admin-inline-to-models-related-models-related-model
+https://stackoverflow.com/questions/44646643/admin-inline-with-no-foreignkey-relation
+https://stackoverflow.com/questions/26365499/django-admin-how-to-edit-two-models-with-indirect-relationship-on-the-single-ad
+cannot use to_field https://docs.djangoproject.com/en/1.11/ref/models/fields/#django.db.models.ForeignKey.to_field as inline is only parent-child
+
+
+reverse relationship: https://stackoverflow.com/questions/17328910/django-what-is-reverse-relationship
+
+Custom queryset in Inline
+https://stackoverflow.com/questions/46447973/django-admin-inline-with-custom-queryset
+https://stackoverflow.com/questions/2101979/django-admin-filter-objects-for-inline-formset
+
+Filter by empty/null value queryset https://stackoverflow.com/questions/844556/how-to-filter-empty-or-null-names-in-a-queryset
+https://docs.djangoproject.com/en/3.2/ref/models/querysets/#filter
+
+
+
+
