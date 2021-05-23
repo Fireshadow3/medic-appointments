@@ -23,7 +23,7 @@ class MedicSerializer(serializers.HyperlinkedModelSerializer):
 class PatientSerializer(serializers.HyperlinkedModelSerializer):
     class Meta:
         model = Patient
-        fields = ('name', 'surname')
+        fields = '__all__'
 
 
 class VisitSerializer(serializers.HyperlinkedModelSerializer):

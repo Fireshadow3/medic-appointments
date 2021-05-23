@@ -14,12 +14,12 @@ L'appuntamento può avere una sola visita.
 * API REST da esporre:
     * [X] Lista medici
     * [X] Dettaglio medico
-    * [ ] Lista pazienti
-    * [ ] Dettaglio pazienti
-    * [ ] Creazione appuntamento (paziente,medico,tipologia visita, giorno)
-    * [ ] Ricerca appuntamenti per medico (da data - a data e per tipologia)
-    * [ ] Ricerca appuntamenti per paziente (da data - a data e per tipologia)
-    * [ ] Dettaglio appuntamento
+    * [X] Lista pazienti
+    * [X] Dettaglio pazienti
+    * [X] Creazione appuntamento (paziente,medico,tipologia visita, giorno)
+    * [X] Ricerca appuntamenti per medico (da data - a data e per tipologia)
+    * [X] Ricerca appuntamenti per paziente (da data - a data e per tipologia)
+    * [X] Dettaglio appuntamento
     * [ ] Creazione visita da appuntamento
     * [ ] Lista visite per paziente (da data)
     * [ ] Dettaglio visita

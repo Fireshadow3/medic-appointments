@@ -69,5 +69,11 @@ Filter by empty/null value queryset https://stackoverflow.com/questions/844556/h
 https://docs.djangoproject.com/en/3.2/ref/models/querysets/#filter
 
 
+register function based APIs in router/register normal views in router django rest https://stackoverflow.com/questions/30389248/how-can-i-register-a-single-view-not-a-viewset-on-my-router
+https://github.com/encode/django-rest-framework/issues/3633
 
+
+https://medium.com/swlh/searching-in-django-rest-framework-45aad62e7782
+
+https://django-filter.readthedocs.io/en/latest/guide/rest_framework.html
 
