@@ -106,3 +106,8 @@ Localization in python https://stackoverflow.com/questions/5893163/what-is-the-p
 See https://docs.python.org/3/library/gettext.html#localizing-your-application
 
 
+filter elements in drop down list django admin
+https://stackoverflow.com/questions/5429276/how-to-change-the-django-admin-filter-to-use-a-dropdown-instead-of-list
+https://stackoverflow.com/questions/6581520/filtering-dropdown-values-in-django-admin
+https://stackoverflow.com/questions/3047839/filtering-model-results-for-django-admin-select-box
+

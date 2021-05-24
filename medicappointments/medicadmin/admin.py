@@ -1,6 +1,7 @@
 from django.contrib import admin
 from django.contrib.admin import AdminSite
 from django.forms.models import BaseInlineFormSet
+from django import forms
 
 from medicmodels.models import (
     TypeOfVisit,
@@ -67,11 +68,26 @@ class PatientAdmin(admin.ModelAdmin):
     ]
 
 
+class VisitsFormset(forms.ModelForm):
+    class Meta:
+        model = Appointment
+        fields = '__all__'
+
+    def __init__(self, *args, **kwargs):
+        super(VisitsFormset, self).__init__(*args, **kwargs)
+        self.fields['appointment'].queryset = Appointment.objects.filter(visit__isnull=True)
+
+
+class VisitAdmin(admin.ModelAdmin):
+    model = Visit
+    form = VisitsFormset
+
+
 admin_site = MedicAdminSite(name='medicadmin')
 
 admin_site.register(TypeOfVisit)
 admin_site.register(Patient, PatientAdmin)
-admin_site.register(Visit)
+admin_site.register(Visit, VisitAdmin)
 admin_site.register(Appointment)
 
 admin_site.register(Medic, MedicAdmin)
