@@ -1,4 +1,5 @@
 from django.db import models
+from django.core.exceptions import ValidationError
 
 
 class TypeOfVisit(models.Model):
@@ -39,6 +40,14 @@ class Appointment(models.Model):
     date = models.DateTimeField()
     medic = models.ForeignKey(Medic, on_delete=models.DO_NOTHING)
     patient = models.ForeignKey(Patient, on_delete=models.DO_NOTHING)
+
+    def clean(self):
+        """
+        Don't allow for an appointment to have a type of visit that a medic can't execute
+        """
+        medic_specializations = self.medic.medic_specializations.all()
+        if (self.type not in medic_specializations):
+            raise ValidationError("Medic doesn\'t have the specified visit type "+str(self.type))
 
     def __str__(self):
         return str(self.type)+","+str(self.date)

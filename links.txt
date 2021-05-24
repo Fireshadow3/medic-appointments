@@ -90,3 +90,19 @@ select all appointments in day https://stackoverflow.com/questions/47979647/pass
 https://stackoverflow.com/questions/34438290/assertionerror-hyperlinkedidentityfield-requires-the-request-in-the-serialize
 
 change inline label https://stackoverflow.com/questions/4807479/how-to-set-another-inline-title-in-django-admin
+
+Django model validation
+https://stackoverflow.com/questions/55475074/django-how-to-check-if-data-is-correct-before-saving-it-to-a-database-on-a-post
+https://docs.djangoproject.com/en/2.2/ref/models/instances/#django.db.models.Model.clean
+https://docs.djangoproject.com/en/dev/ref/models/instances/#validating-objects
+https://docs.djangoproject.com/en/3.2/ref/forms/validation/
+https://stackoverflow.com/questions/12945339/is-this-the-way-to-validate-django-model-fields
+https://stackoverflow.com/questions/15575535/django-models-before-save-create
+https://stackoverflow.com/questions/22587019/how-to-use-full-clean-for-data-validation-before-saving-in-django-1-5-graceful
+it is possible to override save to call clean but it's not a good idea, better to manage exception from view https://stackoverflow.com/questions/18803112/django-doesnt-call-model-clean-method
+
+
+Localization in python https://stackoverflow.com/questions/5893163/what-is-the-purpose-of-the-single-underscore-variable-in-python
+See https://docs.python.org/3/library/gettext.html#localizing-your-application
+
+
